@@ -1,7 +1,7 @@
 #write your code here
 
 def countdown(n)
-  for n in 1..10
+  for n in 10..1
   puts "#{n} SECONDS"
   n-=1
 end 
