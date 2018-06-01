@@ -1,9 +1,9 @@
 #write your code here
 
 def countdown(n)
-  while n > 1 do 
-  n -= 1 
+  for n in 1..10
   puts "#{n} SECONDS"
+  n-=1
 end 
 puts "HAPPY NEW YEAR!"
 end 
@@ -20,7 +20,7 @@ def countdown(count)
   end 
 =end
 
-  def countdown_with_sleep(count)
+def countdown_with_sleep(count)
     while count > 0 do 
       count-=1
       sleep(1)
