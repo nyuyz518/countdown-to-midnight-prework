@@ -4,7 +4,7 @@
 def countdown(count)
   count = 10
    while count >0 do 
-      puts "#{count} seconds!"
+      puts "#{count} SECONDS!"
       count-=1
     end
     "HAPPY NEW YEAR!"
