@@ -2,6 +2,7 @@
 
 
 def countdown(count)
+  count = 10
    while count >0 do 
       puts "#{count} seconds!"
       count-=1
